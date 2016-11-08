@@ -54,7 +54,7 @@ West_Virginia = 54;
 Mississippi = 28;
 Wisconsin = 55;
 Missouri = 29;
-Wyoming = 56
+Wyoming = 56;
  }
 	optional STATE state= 1;
 	optional float ST_CASE = 2;

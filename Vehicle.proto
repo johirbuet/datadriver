@@ -1,5 +1,6 @@
 package boa.transportation.types;
-message Vehicle message Vehicle
+syntax="proto2";
+ message Vehicle
 {
  enum STATE
  {
@@ -55,7 +56,7 @@ West_Virginia = 54;
 Mississippi = 28;
 Wisconsin = 55;
 Missouri = 29;
-Wyoming = 56
+Wyoming = 56;
  }
 	optional STATE state= 1;
 	optional int32 ST_CASE = 2;
